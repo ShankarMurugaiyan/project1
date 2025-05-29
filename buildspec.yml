@@ -1,4 +1,8 @@
 version: 0.2
+env:
+   AWS_region      : /project1/aws-region
+   ECR_REPO_URL    : /project1/ECR_REPO_URL
+   EKS_CLUSTER_NAME: /project1/EKS_CLUSTER_NAME
 
 phases:
   pre_build:
